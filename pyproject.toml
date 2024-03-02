@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ezpipe"
+version = "0.0.1"
+authors = [
+  { name="Yujian Tang", email="ytang07@gmail.com" },
+]
+description = "First attempt at an easy to use package to put data into a vector database"
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/ytang07/ez_pipe"
+Issues = "https://github.com/ytang07/ez_pipe/issues"
